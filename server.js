@@ -22,9 +22,8 @@ app.get("/", (req, res) => {
   console.log(req.body);
 });
 app.post("/short", shortUrl);
-app.get('/:shortCode',getOriginalUrl)
+app.get("/:shortCode", getOriginalUrl);
 const PORT = 3000;
 
-app.listen(PORT, () => {
-  console.log(`server listening on port ${PORT}`);
-});
+export default app;
+
