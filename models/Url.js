@@ -1,0 +1,12 @@
+import mongoose from "mongoose";
+
+const urlSchema = new mongoose.Schema({
+  shortCode: String,
+  longUrl: String,
+});
+// const User = mongoose.model("shortUrl", urlSchema);
+// exports.module = User;
+
+//orrrrrrrrrrrrrrrr
+
+export const Url = mongoose.model("shortUrl", urlSchema);

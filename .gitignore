@@ -1,0 +1,15 @@
+# .gitignore file
+
+# Node modules folder
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# OS files (Mac/Windows)
+.DS_Store
+Thumbs.db
